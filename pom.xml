@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.basementgamer</groupId>
+    <artifactId>adam</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Adam - EVE Online Companion App</name>
+
+    <url>http://basementgamer.github.io/Adam</url>
+
+    <modules>
+        <module>adam-core</module>
+    </modules>
+
+    <properties>
+        <junit.version>4.8.2</junit.version>
+        <eveapi.version>5.1.3</eveapi.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>eveapi</id>
+            <url>https://eveapi.googlecode.com/svn/m2/releases</url>
+        </repository>
+    </repositories>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.beimin</groupId>
+                <artifactId>eveapi</artifactId>
+                <version>${eveapi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
