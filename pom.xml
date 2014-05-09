@@ -9,14 +9,22 @@
     <name>Adam - EVE Online Companion App</name>
 
     <url>http://basementgamer.github.io/Adam</url>
+    <organization>
+        <name>BasementGamer.org</name>
+        <url>http://basementgamer.org/</url>
+    </organization>
 
     <modules>
         <module>adam-core</module>
+        <module>adam-ui</module>
     </modules>
 
     <properties>
         <junit.version>4.8.2</junit.version>
         <eveapi.version>5.1.3</eveapi.version>
+        <javafx-maven-plugin.version>2.0</javafx-maven-plugin.version>
+        <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+        <javafx.version>2.2</javafx.version>
     </properties>
 
     <repositories>
@@ -29,6 +37,13 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.oracle</groupId>
+                <artifactId>javafx</artifactId>
+                <version>${javafx.version}</version>
+                <systemPath>${java.home}/lib/jfxrt.jar</systemPath>
+                <scope>system</scope>
+            </dependency>
+            <dependency>
                 <groupId>com.beimin</groupId>
                 <artifactId>eveapi</artifactId>
                 <version>${eveapi.version}</version>
@@ -37,7 +52,29 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.zenjava</groupId>
+                    <artifactId>javafx-maven-plugin</artifactId>
+                    <version>${javafx-maven-plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                    <configuration>
+                        <source>1.7</source>
+                        <target>1.7</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
