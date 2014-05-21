@@ -1,0 +1,265 @@
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DBCOPYTEST" not found; SQL statement:
+DROP TABLE PUBLIC.DBCOPYTEST [42102-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:20:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "AGTAGENTS" not found; SQL statement:
+select count(*) from PUBLIC.AGTAGENTS [42102-178]
+05-11 11:21:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:21:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:21:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "AGTAGENTTYPES" not found; SQL statement:
+select count(*) from PUBLIC.AGTAGENTTYPES [42102-178]
+05-11 11:21:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE UNIQUE INDEX PRIMARY[*] ON PUBLIC.AGTAGENTTYPES(AGENTTYPEID) "; expected "identifier"; SQL statement:
+CREATE UNIQUE INDEX PRIMARY ON PUBLIC.agtAgentTypes(agentTypeID) [42001-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "AGTAGENTS" not found; SQL statement:
+select count(*) from PUBLIC.AGTAGENTS [42102-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST"; SQL statement:
+DROP TABLE PUBLIC.PUBLIC.DBCOPYTEST [42000-178]
+05-11 11:22:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "AGTAGENTS" not found; SQL statement:
+select count(*) from PUBLIC.AGTAGENTS [42102-178]
+05-11 11:23:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Schema "staticdb" not found; SQL statement:
+select tbl.typeid from "staticdb"."public"."dbcopytest" tbl [90079-178]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.command.Parser.getSchema(Parser.java:655)
+	at org.h2.command.Parser.getSchema(Parser.java:662)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1186)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1859)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1968)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1853)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1674)
+	at org.h2.command.Parser.parseSelect(Parser.java:1662)
+	at org.h2.command.Parser.parsePrepared(Parser.java:434)
+	at org.h2.command.Parser.parse(Parser.java:306)
+	at org.h2.command.Parser.parse(Parser.java:278)
+	at org.h2.command.Parser.prepareCommand(Parser.java:243)
+	at org.h2.engine.Session.prepareLocal(Session.java:442)
+	at org.h2.engine.Session.prepareCommand(Session.java:384)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:75)
+	at net.sourceforge.squirrel_sql.client.session.mainpanel.objecttree.tabs.table.ContentsTab.createDataSet(Unknown Source)
+	at net.sourceforge.squirrel_sql.client.session.mainpanel.objecttree.tabs.BaseDataSetTab$1.run(Unknown Source)
+	at net.sourceforge.squirrel_sql.fw.util.TaskExecuter.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+05-11 11:23:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Schema "staticdb" not found; SQL statement:
+select count(*) from "staticdb"."public"."dbcopytest" [90079-178]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.command.Parser.getSchema(Parser.java:655)
+	at org.h2.command.Parser.getSchema(Parser.java:662)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1186)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1859)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1968)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1853)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1674)
+	at org.h2.command.Parser.parseSelect(Parser.java:1662)
+	at org.h2.command.Parser.parsePrepared(Parser.java:434)
+	at org.h2.command.Parser.parse(Parser.java:306)
+	at org.h2.command.Parser.parse(Parser.java:278)
+	at org.h2.command.Parser.prepareCommand(Parser.java:243)
+	at org.h2.engine.Session.prepareLocal(Session.java:442)
+	at org.h2.engine.Session.prepareCommand(Session.java:384)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:75)
+	at net.sourceforge.squirrel_sql.client.session.mainpanel.objecttree.tabs.table.RowCountTab.createDataSet(Unknown Source)
+	at net.sourceforge.squirrel_sql.client.session.mainpanel.objecttree.tabs.BaseDataSetTab$1.run(Unknown Source)
+	at net.sourceforge.squirrel_sql.fw.util.TaskExecuter.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:23:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "AGTAGENTS" not found; SQL statement:
+select count(*) from public.agtagents [42102-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE PUBLIC.PUBLIC.[*]DBCOPYTEST "; SQL statement:
+DROP TABLE public.public.dbcopytest [42000-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CERTCERTS" not found; SQL statement:
+select count(*) from public.certcerts [42102-178]
+05-11 11:24:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE UNIQUE INDEX PRIMARY[*] ON PUBLIC.CERTCERTS(CERTID) "; expected "identifier"; SQL statement:
+CREATE UNIQUE INDEX PRIMARY ON public.certCerts(certID) [42001-178]

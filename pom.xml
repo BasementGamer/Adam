@@ -16,6 +16,7 @@
 
     <modules>
         <module>adam-core</module>
+        <module>adam-data</module>
         <module>adam-ui</module>
     </modules>
 
@@ -25,6 +26,12 @@
         <javafx-maven-plugin.version>2.0</javafx-maven-plugin.version>
         <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
         <javafx.version>2.2</javafx.version>
+        <h2.version>1.4.178</h2.version>
+        <slf4j.version>1.7.5</slf4j.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <miglayout.version>4.2</miglayout.version>
+        <datanucleus.version>(3.1.99, 3.9)</datanucleus.version>
+        <jdo.version>3.0.1</jdo.version>
     </properties>
 
     <repositories>
@@ -32,7 +39,25 @@
             <id>eveapi</id>
             <url>https://eveapi.googlecode.com/svn/m2/releases</url>
         </repository>
+        <repository>
+            <id>DN_M2_Repo</id>
+            <name>DataNucleus Repository</name>
+            <url>http://www.datanucleus.org/downloads/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
     </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>DataNucleus_2</id>
+            <url>http://www.datanucleus.org/downloads/maven2/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
     <dependencyManagement>
         <dependencies>
@@ -49,10 +74,60 @@
                 <version>${eveapi.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${h2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>${slf4j.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons-lang.version}</version>
+            </dependency>
+
+            <!-- MigLayout -->
+
+            <dependency>
+                <groupId>com.miglayout</groupId>
+                <artifactId>miglayout-javafx</artifactId>
+                <version>${miglayout.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.datanucleus</groupId>
+                <artifactId>datanucleus-core</artifactId>
+                <version>${datanucleus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.datanucleus</groupId>
+                <artifactId>datanucleus-api-jdo</artifactId>
+                <version>${datanucleus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.datanucleus</groupId>
+                <artifactId>datanucleus-rdbms</artifactId>
+                <version>${datanucleus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.jdo</groupId>
+                <artifactId>jdo-api</artifactId>
+                <version>${jdo.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

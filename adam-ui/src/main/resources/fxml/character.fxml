@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?scenebuilder-stylesheet ../styles/styles.css?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" styleClass="main-panel" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="256.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <image>
+        <Image url="http://image.eveonline.com/Character/94449896_256.jpg" />
+      </image>
+    </ImageView>
+    <VBox prefHeight="256.0" prefWidth="286.0" spacing="10.0" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="20.0">
+      <children>
+        <Label text="Character Name: Wil Stark" />
+        <Label contentDisplay="CENTER" prefWidth="286.0" text="Corporation" textAlignment="CENTER" VBox.vgrow="ALWAYS" />
+        <HBox prefHeight="64.0" prefWidth="200.0" spacing="20.0">
+          <children>
+            <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="http://image.eveonline.com/Corporation/157983505_64.png" />
+              </image>
+            </ImageView>
+            <Label text="Blacksteel Mining and Manufacturing" wrapText="true" />
+          </children>
+        </HBox>
+        <Label prefWidth="286.0" text="Alliance" textAlignment="CENTER" />
+        <HBox prefHeight="64.0" prefWidth="200.0" spacing="20.0">
+          <children>
+            <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="http://image.eveonline.com/Corporation/157983505_64.png" />
+              </image>
+            </ImageView>
+            <Label text="Renaissance Federation" wrapText="true" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>
