@@ -1,7 +1,5 @@
 package org.basementgamer.adam.model.account;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
-import org.apache.commons.lang.builder.ToStringStyle;
 import org.basementgamer.adam.model.CacheableData;
 
 import javax.jdo.annotations.PersistenceCapable;
@@ -64,16 +62,5 @@ public class AccountStatus extends CacheableData<AccountStatus> {
     public AccountStatus withLogonMinutes(final Integer logonMinutes) {
         this.logonMinutes = logonMinutes;
         return this;
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-                .append("paidUntil", paidUntil)
-                .append("createDate", createDate)
-                .append("logonCount", logonCount)
-                .append("logonMinutes", logonMinutes)
-                .appendSuper(super.toString())
-                .toString();
     }
 }

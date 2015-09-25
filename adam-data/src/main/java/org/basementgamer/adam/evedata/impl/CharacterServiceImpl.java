@@ -26,7 +26,8 @@ public class CharacterServiceImpl implements CharacterService {
             EveAccountBalance eveBalance = response.getAll().iterator().next();
             balance = convertEveAccountBalance(eveBalance);
         } catch (ApiException e) {
-            String message = String.format("");
+            String message = String.format("Could not obtain account balance. %s", e.getMessage());
+            logger.error(message);
             throw new ServiceException(message, e);
         }
         return balance;

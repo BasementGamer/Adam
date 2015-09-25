@@ -1,6 +1,6 @@
 package org.basementgamer.adam.model.account;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 
 public class Character {
@@ -126,15 +126,6 @@ public class Character {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-                .append("characterId", characterId)
-                .append("name", name)
-                .append("corporationId", corporationId)
-                .append("corporationName", corporationName)
-                .append("allianceId", allianceId)
-                .append("allianceName", allianceName)
-                .append("factionId", factionId)
-                .append("factionName", factionName)
-                .toString();
+        return new ReflectionToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE).toString();
     }
 }

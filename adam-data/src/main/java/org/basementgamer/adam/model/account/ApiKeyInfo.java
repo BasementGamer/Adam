@@ -1,10 +1,9 @@
 package org.basementgamer.adam.model.account;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
-import org.apache.commons.lang.builder.ToStringStyle;
 import org.basementgamer.adam.model.CacheableData;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
@@ -17,7 +16,7 @@ public class ApiKeyInfo extends CacheableData<ApiKeyInfo> {
     public enum KeyType {
         Account,
         Character,
-        Corporation;
+        Corporation
     }
 
     public Long getAccessMask() {
@@ -44,7 +43,7 @@ public class ApiKeyInfo extends CacheableData<ApiKeyInfo> {
         this.expiration = expiration;
     }
 
-    public List<Character> getCharacters() {
+    public Collection<Character> getCharacters() {
         return characterList;
     }
 
@@ -66,15 +65,5 @@ public class ApiKeyInfo extends CacheableData<ApiKeyInfo> {
     public ApiKeyInfo withExpiration(final Date expiration) {
         this.expiration = expiration;
         return this;
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-                .append("accessMask", accessMask)
-                .append("type", type)
-                .append("expiration", expiration)
-                .appendSuper(super.toString())
-                .toString();
     }
 }

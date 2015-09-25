@@ -15,10 +15,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>javafx</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
         </dependency>
@@ -48,7 +44,11 @@
                 <groupId>com.zenjava</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass></mainClass>
+                    <mainClass>org.basementgamer.adam.ui.Adam</mainClass>
+                    <identifier>org.basementgamer.Adam</identifier>
+                    <needShortcut>true</needShortcut>
+                    <needMenu>true</needMenu>
+                    <appName>Adam</appName>
                 </configuration>
             </plugin>
             <!--<plugin>-->

@@ -9,17 +9,18 @@ import com.beimin.eveapi.account.characters.CharactersParser;
 import com.beimin.eveapi.account.characters.CharactersResponse;
 import com.beimin.eveapi.account.characters.EveCharacter;
 import com.beimin.eveapi.core.ApiAuthorization;
-import com.beimin.eveapi.core.ApiResponse;
 import com.beimin.eveapi.exception.ApiException;
 import org.basementgamer.adam.evedata.AccountService;
 import org.basementgamer.adam.evedata.ServiceException;
 import org.basementgamer.adam.model.ApiKey;
-import org.basementgamer.adam.model.account.*;
+import org.basementgamer.adam.model.account.AccountStatus;
+import org.basementgamer.adam.model.account.ApiKeyInfo;
 import org.basementgamer.adam.model.account.Character;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 public class AccountServiceImpl implements AccountService {
@@ -47,7 +48,7 @@ public class AccountServiceImpl implements AccountService {
     }
 
     @Override
-    public List<Character> getCharacters(ApiKey key) {
+    public Collection<Character> getCharacters(ApiKey key) {
         List<Character> characterList = new ArrayList<>();
         ApiAuthorization authorization = new ApiAuthorization(key.getKeyId(), key.getVerificationCode());
         try {
