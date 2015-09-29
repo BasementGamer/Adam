@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.*?>
+<!--
+  ~ Copyright 2015 Guillermo Castro
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
 <?import javafx.scene.control.*?>
-<?import org.tbee.javafx.scene.layout.fxml.MigPane?>
-<?import layouttests.migfxml.sample1.*?>
-
+<?import org.tbee.javafx.scene.layout.fxml.*?>
 <MigPane id="rootPane" fx:controller="org.basementgamer.adam.ui.HelloController"
-        styleClass="main-panel"
-        layout="insets 20"
-        cols="[label, pref!][grow, 50::]"
-        rows=""
-        xmlns:fx="http://javafx.com/fxml">
+         styleClass="main-panel"
+         layout="insets 20"
+         cols="[label, pref!][grow, 50::]"
+         rows=""
+         xmlns:fx="http://javafx.com/fxml">
 
-    <Label text="First Name:" /> <TextField fx:id="firstNameField" prefColumnCount="30" MigPane.cc="growx, wrap" />
-    <Label text="Last Name:" />	<TextField fx:id="lastNameField" prefColumnCount="30" MigPane.cc="growx, wrap" />
+    <Label text="First Name:"/>
+    <TextField fx:id="firstNameField" prefColumnCount="30" MigPane.cc="growx, wrap"/>
+    <Label text="Last Name:"/>
+    <TextField fx:id="lastNameField" prefColumnCount="30" MigPane.cc="growx, wrap"/>
 
-    <Button text="Say Hello" onAction="#sayHello" MigPane.cc="skip, gap :push, gaptop 15, wrap" />
+    <Button text="Say Hello" onAction="#sayHello" MigPane.cc="skip, gap :push, gaptop 15, wrap"/>
 
-    <Label fx:id="messageLabel" styleClass="hello-message" MigPane.cc="span, growx, gaptop 15" />
+    <Label fx:id="messageLabel" styleClass="hello-message" MigPane.cc="span, growx, gaptop 15"/>
 
-</MigPane >
+</MigPane>
