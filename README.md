@@ -3,6 +3,8 @@ Adam
 Adam is an EVE online companion app
 
 [![Build Status](https://travis-ci.org/BasementGamer/Adam.svg?branch=master)](https://travis-ci.org/BasementGamer/Adam)
+[![Coverage Status](https://coveralls.io/repos/BasementGamer/Adam/badge.svg?branch=master&service=github)](https://coveralls.io/github/BasementGamer/Adam?branch=master)
+
 
 Features
 ========
