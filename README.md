@@ -1,7 +1,8 @@
 Adam
 ====
-
 Adam is an EVE online companion app
+
+[![Build Status](https://travis-ci.org/BasementGamer/Adam.svg?branch=master)](https://travis-ci.org/BasementGamer/Adam)
 
 Features
 ========

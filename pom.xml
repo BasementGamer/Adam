@@ -22,6 +22,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>Adam - EVE Online Companion App</name>
+    <inceptionYear>2015</inceptionYear>
 
     <url>http://basementgamer.github.io/Adam</url>
     <organization>
@@ -68,6 +69,7 @@
         <datanucleus.version>4.0.1</datanucleus.version>
         <jdo.version>3.0.1</jdo.version>
         <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
+        <coveralls-maven-plugin.version>4.0.0</coveralls-maven-plugin.version>
     </properties>
 
     <repositories>
@@ -196,7 +198,21 @@
                         </execution>
                     </executions>
                 </plugin>
+                <plugin>
+                    <groupId>org.eluder.coveralls</groupId>
+                    <artifactId>coveralls-maven-plugin</artifactId>
+                    <version>${coveralls-maven-plugin.version}</version>
+                </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
     </build>
 </project>
